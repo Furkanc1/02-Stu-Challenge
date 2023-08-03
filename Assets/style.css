@@ -6,6 +6,7 @@
 
 body{
     background-color: rgb(66, 161, 49);
+    
 }
 
 
@@ -58,7 +59,7 @@ a:visited{
     color: grey;
 }
 
-.backroundimage {
+.backgroundimage {
     height: 250px;
     width: 100%;
     margin-bottom: -70px;
@@ -78,8 +79,7 @@ a:visited{
     background-color:cyan;
     color: black;
     text-align:center;
-    position: relative;
-    left: 1200px;
+    
 }
 #box1:hover{
     background-color: black;
@@ -89,14 +89,62 @@ a:visited{
 .about{
     border-style: solid;
     border-width: 5px;
+    width: 400px;
     padding: 5px;
     margin-top: 15px;
     background-color: black;
     color: cyan;
+    text-align: end;
     
 }
 .about:hover{
     color: lightgreen;
 }
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+/* need refresher how and when to use flex containers */
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 600px;
+    justify-content: flex-end;
+}
+
+.about, .box, #bigbox{
+    margin-bottom: 20px;
+}
+
+
+.box{
+    border-style: outset;
+    border-width: 5px;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px;
+
+    /*Need help understanding how to do this*/
+
+    flex: 1 0 calc(50% - 20px);
+    
+}
+/* Need help learning how to make my css neater + keeping everything in order. (basic*/
+#bigbox{
+    border-style: outset;
+    border-width: 5px;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px;
+    flex: 1 0 100%;
+    
+}
+
 
 
