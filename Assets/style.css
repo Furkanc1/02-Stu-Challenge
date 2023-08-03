@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(66, 161, 49);
+}
+
+
+.header{
+    
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    background-color: rgb(23, 22, 22);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+header h1{
+    background-color: cyan;
+    padding: 10px;
+}
+header h1:hover{
+    background-color: black;
+    color: lightgreen;
+}
+.header div {
+    padding-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 55px;
+}
+
+header h1{
+    
+    display: inline-block;
+    
+}
+a{
+    color: cyan;
+}
+a:hover {
+    color: lightgreen;
+    background-color: black;
+    font-weight: bolder;
+}
+a:visited{
+    color: grey;
+}
+
+.backroundimage {
+    height: 250px;
+    width: 100%;
+    margin-bottom: -70px;
+    background-image: url("https://repository-images.githubusercontent.com/310526431/f3510580-2712-11eb-9cf2-793ab4e1bbf7");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box1{
+    border-style: solid;
+    border-width: 5px;
+    width: 250px;
+    height: 70px;
+    padding: 20px;
+    font-size: 22px;
+    background-color:cyan;
+    color: black;
+    text-align:center;
+    position: relative;
+    left: 1200px;
+}
+#box1:hover{
+    background-color: black;
+    color: lightgreen;
+}
+
+.about{
+    border-style: solid;
+    border-width: 5px;
+    padding: 5px;
+    margin-top: 15px;
+    background-color: black;
+    color: cyan;
+    
+}
+.about:hover{
+    color: lightgreen;
+}
+
+
