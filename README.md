@@ -28,3 +28,7 @@ THEN I am presented with a responsive layout that adapts to my viewport <done so
 
 ![My Website Image](Website-Image.png)
 ![website Image #2](<Screenshot 2023-08-06 153621.png>)
+
+WEBSITE URL: http://127.0.0.1:5500/week2/Week-2-Homework/02-Stu-Challenge/Assets/index.html
+
+
